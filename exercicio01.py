@@ -7,4 +7,5 @@ git status
 git add .
 git commit -m " qualquer coisa"
 '''
-print('nome do aluno: alexandre')
+aluno= input("Digite seu nome: ")
+print(f"Olá {aluno},tenha um bom dia!")
