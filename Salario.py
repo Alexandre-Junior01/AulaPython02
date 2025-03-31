@@ -4,4 +4,6 @@ salario = float(input("Digite seu salario: "))
 print(f'Olá {nome}, você tem {idade} anos, e seu salario é {salario:.2f}')
 aumento = float(input("Digite o valor do aumento:  "))
 aumentoA =salario +(salario*aumento/100)
+valorA = salario*aumento/100
 print(f"Novo salario: {aumentoA:.2f}, e salario antigo é {salario:.2f}")
+print(f'valor do aummento do salario {valorA}')
